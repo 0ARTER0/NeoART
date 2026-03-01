@@ -18,9 +18,11 @@ For base editor:
 - nvim-telescope/telescope-fzf-native.nvim (dep for nelescope)
 - nvim-lua/plenary.nvim (dep for telescope)
 - folke/which-key.nvim
+
 For extra look:
 - nvim-lualine/lualine.nvim
 - nvimdev/dashboard-nvim
+
 For themes:
 - rasmus
 - yuyuko
