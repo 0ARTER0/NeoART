@@ -1,6 +1,7 @@
 # NeoART: test: 02
 # new
 - added neotree
+- remove nvimtree
 - changed open file tree to ctrl + f
 - added shado theme
 ***
