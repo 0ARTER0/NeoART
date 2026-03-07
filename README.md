@@ -25,7 +25,6 @@ git clone https://github.com/0ARTER0/NeoART $ENV:USERPROFILE\AppData\Local\nvim;
 For base editor:
 - windwp/nvim-autopairs
 - nvim-neo-tree/neo-tree.nvim
-- nvim-tree/nvim-web-devicons (dep for nvim-tree)
 - akinsho/toggleterm.nvim
 - nvim-telescope/telescope.nvim
 - nvim-telescope/telescope-fzf-native.nvim (dep for nelescope)
