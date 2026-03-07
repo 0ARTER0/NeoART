@@ -1,5 +1,4 @@
 # NeoART: test: 02
-***
 # new
 - added neotree
 - changed open file tree to ctrl + f
