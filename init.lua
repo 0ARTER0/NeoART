@@ -9,7 +9,7 @@
 --       my own configuration for neovim       --
 -------------------------------------------------
 
--- some depandencies 
+-- some dependencies 
 require("config.lazy")
 require("keybinds")
 require("editor")

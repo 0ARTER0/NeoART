@@ -17,9 +17,8 @@ map("n", "<C-l>", "<C-w>l", { desc = "switch window right" })
 map("n", "<C-j>", "<C-w>j", { desc = "switch window down" })
 map("n", "<C-k>", "<C-w>k", { desc = "switch window up" })
 
--- nvimtree
-map("n", "<C-b>", "<cmd>NvimTreeToggle<cr>", { desc = "nvimtree toggle window" })
-map("n", "<leader>e", "<cmd>NvimTreeFocus<cr>", { desc = "nvimtree focus window" })
+-- neo tree
+map("n", "<C-f>", "<cmd>Neotree toggle<cr>", { desc = "nvimtree toggle window" })
 
 -- telescope
 local builtin = require('telescope.builtin')

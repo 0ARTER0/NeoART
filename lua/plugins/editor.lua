@@ -7,23 +7,17 @@ return {
 		'windwp/nvim-autopairs',
 		event = "InsertEnter",
 		config = true
-	},	
+	},
 	{
-		"nvim-tree/nvim-tree.lua",
-		version = "*",
-		lazy = false,
+		"nvim-neo-tree/neo-tree.nvim",
+		branch = "v3.x",
 		dependencies = {
-			"nvim-tree/nvim-web-devicons",
+			"nvim-lua/plenary.nvim",
+			"MunifTanjim/nui.nvim",
+			"nvim-tree/nvim-web-devicons", -- optional, but recommended
 		},
-		config = function()
-			require("nvim-tree").setup {}
-		end,
-		sync_root_with_cwd = true,
-		respect_buf_cwd = true,
-		update_focused_file = {
-			enable = true,
-			update_root = true,
-		},
+		lazy = false, -- neo-tree will lazily load itself
+		
 	},
 	{
 		{'akinsho/toggleterm.nvim', version = "*", config = true}

@@ -7,7 +7,8 @@ return{
 	{"kdheepak/monochrome.nvim"},
 	{"folke/tokyonight.nvim"},
 	{"Enonya/yuyuko.vim"},
-	
+	{"Shadorain/shadotheme"},
+
 	-- theme picker
 	{
 		"zaldih/themery.nvim",
@@ -16,13 +17,14 @@ return{
       require("themery").setup({
 			themes = {
 				"rasmus",
+				"shado",
 				"yuyuko",
-				"monochrome", 
+				"monochrome",
 				"tokyonight-night", 
-				"tokyonight-storm", 
+				"tokyonight-storm",
 				"tokyonight-day", 
 				"tokyonight-moon"},
 		})
 		end
   }
-}
+} 

@@ -6,7 +6,7 @@ return {
 	event = "VimEnter",
 	opts = function()
 		local logo = [[
-	 _   __				 ___    ____  ______
+   	    _   __   			 ___    ____  ______
 			/ | / /__  ____   /   |  / __ \/_  __/
 		  /  |/ / _ \/ __ \ / /| | / /_/ / / /   
 		 / /|  /  __/ /_/ // ___ |/ _, _/ / /    
@@ -20,7 +20,7 @@ return {
 			header = vim.split(logo, "\n"),
 			shortcut = {
 				{ icon = "", desc = "which key", group = "", action="show key combinations", key = "space"},
-				{ icon = "", desc = "file tree", group = "", action="file tree", key = "ctrl + b"}
+				{ icon = "", desc = "file tree", group = "", action="file tree", key = "ctrl + f"}
 			},
 			project = { enable = false },
 			mru = { enable = false },
