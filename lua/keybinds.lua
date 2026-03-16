@@ -22,11 +22,7 @@ map("n", "<C-b>", "<cmd>Neotree toggle<cr>", { desc = "nvimtree toggle window" }
 
 -- telescope
 local builtin = require('telescope.builtin')
-map('n', '<leader>tf', 
-	function()
-		require('telescope.builtin').find_files({ cwd = vim.fn.expand('%:p:h') })
-	end, 
-	{ desc = 'Telescope find files' })
+map('n', '<leader>tf', builtin.find_files, { desc = 'Telescope find files' })
 map('n', '<leader>tg', builtin.live_grep, { desc = 'Telescope live grep' })
 map('n', '<leader>tb', builtin.buffers, { desc = 'Telescope buffers' })
 map('n', '<leader>th', builtin.help_tags, { desc = 'Telescope help tags' })
