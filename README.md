@@ -21,27 +21,6 @@ git clone https://github.com/0ARTER0/NeoART $ENV:USERPROFILE\AppData\Local\nvim;
 
 ```
 ***
-# I use in this configuration:
-For base editor:
-- windwp/nvim-autopairs
-- nvim-neo-tree/neo-tree.nvim
-- akinsho/toggleterm.nvim
-- nvim-telescope/telescope.nvim
-- nvim-telescope/telescope-fzf-native.nvim (dep for nelescope)
-- nvim-lua/plenary.nvim (dep for telescope)
-- folke/which-key.nvim
-
-For extra look:
-- nvim-lualine/lualine.nvim
-- nvimdev/dashboard-nvim
-
-For themes:
-- rasmus
-- shadotheme
-- yuyuko
-- monochrome
-- tokyonight-night
-- tokyonight-storm
-- tokyonight-day
-- tokyonight-moon
-- zaldih/themery.nvim (for changing themes)
+# This is cool neovim distro 😜
+There is neotree, telescope, term, cmp, some themes, start screen, and maybe there be more!
+I trying to make it more comfortable for myself so if there some functionality what you don't love, just change it!
