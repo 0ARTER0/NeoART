@@ -1,9 +1,6 @@
 # NeoART: test: 02 q
 # new
-- added neotree
-- remove nvimtree
-- added shado theme
-- added cmp
+- added xiyaowong/transparent.nvim (cpace cte to enable, space ctd to disable)
 ***
 This is my own configuration of neovim.
 Thanks for nvchad for existing(repo of nvchad help me to configure some shit).
