@@ -24,7 +24,7 @@ return {
 			},
 			project = { enable = false },
 			mru = { enable = false },
-			footer = {"Practically all is art even a text editor, meybe :)"},
+			footer = {"Practically all is art even a text editor"},
 			},
 		}
 		return opts

@@ -8,6 +8,7 @@ return{
 	{"folke/tokyonight.nvim"},
 	{"Enonya/yuyuko.vim"},
 	{"Shadorain/shadotheme"},
+	{"xiyaowong/transparent.nvim"},
 
 	-- theme picker
 	{
