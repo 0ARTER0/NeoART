@@ -1,4 +1,4 @@
-# NeoART: test: 02 az
+# NeoART: test: 02 q
 # new
 - added neotree
 - remove nvimtree
