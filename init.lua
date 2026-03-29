@@ -13,3 +13,4 @@
 require("config.lazy")
 require("keybinds")
 require("editor")
+require("current-theme")

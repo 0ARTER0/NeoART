@@ -26,17 +26,18 @@ map('n', '<leader>tf', builtin.find_files, { desc = 'Telescope find files' })
 map('n', '<leader>tg', builtin.live_grep, { desc = 'Telescope live grep' })
 map('n', '<leader>tb', builtin.buffers, { desc = 'Telescope buffers' })
 map('n', '<leader>th', builtin.help_tags, { desc = 'Telescope help tags' })
+map('n', '<leader>cc', "<cmd>Telescope themes<cr>", { desc = "themes" })
 
 -- termtoggle
 vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], { desc = "Exit terminal mode" })
 -- Horizontal Terminal (Bottom)
-map('n', '<leader>tth', '<cmd>ToggleTerm direction=horizontal<cr>', { desc = "Terminal Horizontal" })
+map('n', '<leader>kh', '<cmd>ToggleTerm direction=horizontal<cr>', { desc = "Terminal Horizontal" })
 -- Vertical Terminal (Right side)
-map("n", "<leader>ttv", "<cmd>ToggleTerm size=80 direction=vertical<cr>", { desc = "Terminal Vertical" })
+map("n", "<leader>kv", "<cmd>ToggleTerm size=80 direction=vertical<cr>", { desc = "Terminal Vertical" })
 -- Floating Terminal (Center)
-map("n", "<leader>ttf", "<cmd>ToggleTerm direction=float<cr>", { desc = "Terminal Float" })
+map("n", "<leader>kf", "<cmd>ToggleTerm direction=float<cr>", { desc = "Terminal Float" })
 -- Tab Terminal (Full screen)
-map("n", "<leader>ttt", "<cmd>ToggleTerm direction=tab<cr>", { desc = "Terminal Tab" })
+map("n", "<leader>kt", "<cmd>ToggleTerm direction=tab<cr>", { desc = "Terminal Tab" })
 
 -- transparent.nvim
 map("n", "<leader>cte", "<cmd>TransparentEnable<cr>", {desc = "enable transparent bg"})
