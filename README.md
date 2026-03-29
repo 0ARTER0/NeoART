@@ -1,4 +1,4 @@
-# NeoART: test: 02 q
+# NeoART: V0.1z
 # new
 - added xiyaowong/transparent.nvim (cpace cte to enable, space ctd to disable)
 ***
